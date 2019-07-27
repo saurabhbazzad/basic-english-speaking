@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <!--Bootstrap, JQuery and Popperjs-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+    <!--/Bootstrap, JQuery and Popperjs-->
+
+
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-1" id="nav-bar-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand my-0 py-0" href="#"><img src="./img/logo.jpg" alt="" id="logo-img" class="p-0"></a>
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 btn-group">
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">Career Counselling</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">ASCENT Events</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">myASCENT</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">ASCENT Kids</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-light btn-nav-item">Ascent Email</button><span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link px-0" href="#"><button class="btn btn-danger btn-nav-item">Contact us</button><span class="sr-only"></span></a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid px-0 py-0">
+        <div class="card bg-dark text-white">
+            <img src="./img/speaking1.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-flex">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Why Us</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Our Courses</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pathways</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accommodation</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Student Life</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dates & Fees</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row h-75">
+                    <div class="mt-auto w-100">
+                        <h5 class="card-title bg-custom-1 text-center py-3" id="h-1">BASIC ENGLISH SPEAKING PROGRAM</h5>
+                        <p class="card-text bg-custom-2 text-center py-3" id="h-2">Give an intelligent push to your desire towards English speaking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 py-4">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active text-danger" data-toggle="tab" href="#home" id="nav-btn-1">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu1" id="nav-btn-2">Program Module</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu2" id="nav-btn-3">Duration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu3" id="nav-btn-4">Assessment Criteria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" data-toggle="tab" href="#menu4" id="nav-btn-5">Testimonials</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Tab panes -->
+                    <div class="tab-content py-3 outline-tab-pane">
+                        <div class="tab-pane container active" id="home">
+                            <p>
+                                Ascent Ayaansh invites you to join our painstakingly structured Basic English Speaking 
+                                Program. At Ascent Ayaansh, we are focused on giving you an extraordinary and an 
+                                alternate English learning knowledge with guaranteed results, which other communicated 
+                                in English classes may battle with.
+                            </p>
+                            <p>
+                                Regardless of whether you wish to begin learning English as a learner or you are an 
+                                understudy, Executive, Housewife, we have the privilege Spoken English course for you, 
+                                causing you to talk familiar English with nonpartisan highlight ensured!  
+                            </p>
+                            <p>
+                                Our Spoken English course is structured by specialists from international university 
+                                explicitly to address the issues of individuals who battle with English talking 
+                                aptitudes, making a baffling knowledge for both themselves and the audience.  
+                            </p>
+                            <p>
+                                Besides, Ascent Ayaansh will enable you to adapt new English vocabulary, refine your 
+                                English articulation and cause you to convey, all things considered, circumstances. 
+                            </p>
+                            <p>
+                                To put it plainly, on the off chance that you have next to no information of English 
+                                and might want to talk all the more normally – the manner in which it's truly 
+                                spoken – at that point this Spoken English Program is ideal for you. 
+                            </p>
+                            <div class="text-center py-3">
+                                <img src="./img/fluentEnglish.gif" alt="">
+                            </div>
+                            <h3>ENGLISH SPEAKING MODULE</h3>
+                            <p>
+                                Proficiency in speaking includes knowledge not only of the language but also social and 
+                                cultural norms, and the ability to respond appropriately in a variety of situations. This 
+                                module contains a range of activities for the teacher to use in the classrooms to encourage 
+                                students to speak effectively and with confidence. The activities are mainly designed 
+                                around shared experiences, to be done in pairs and groups so that students learn to respond 
+                                spontaneously in any communication situation.
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu1">
+                            <ol>
+                                <li class="my-3">
+                                    Elementary of English Speaking
+                                    <ol class="inner-nested-li">
+                                        <li>English Speaking Basics I</li>
+                                        <li>English Speaking Basics II</li>
+                                        <li>English Speaking Basics III</li>                                                    
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Greeting, Feelings & Emotion Conversations
+                                    <ol class="inner-nested-li">
+                                        <li>Greeting and General  I</li>
+                                        <li>Greeting and General  II</li>
+                                        <li>Feeling & Emotions I</li>
+                                        <li>Feeling & Emotions II</li>                                                    
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Real life Speaking Practice
+                                    <ol class="inner-nested-li">
+                                        <li>College related Topics</li>
+                                        <li>Guys, Girls & Sports</li>
+                                        <li>Family, Children, Friends</li>
+                                        <li>Speaking about Colors, Time, Help</li>
+                                        <li>Knowing the Calendar</li>                                                    
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Learning Essential Grammar
+                                    <ol class="inner-nested-li">
+                                        <li>Creating a simple sentence</li>
+                                        <li>Vowels & Consonants</li>
+                                        <li>Noun, Pronoun and Verb</li> 
+                                        <li>The Verb “TO BE”</li>
+                                        <li>Adjective, Adverb</li>
+                                        <li>The Regular & irregular verbs</li>
+                                        <li>Different forms of Verb</li>   
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Pronunciation & Accent Training
+                                    <ol class="inner-nested-li">
+                                        <li>Introduction to Pronunciation</li>
+                                        <li>Vowel & Consonant Sound</li>
+                                        <li>Importance of Word Stress</li>
+                                        <li>Improve fluency</li>
+                                        <li>The British & American Accent</li>                                                    
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Communication-Introduction & Basics
+                                    <ol class="inner-nested-li">
+                                        <li>Basic Conversations</li> 
+                                        <li>Developing active vocabulary</li>
+                                        <li>Creating your own sentences</li>     
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Essential Grammar I
+                                    <ol class="inner-nested-li">
+                                        <li>Simple Present Tense</li>
+                                        <li>Present Continuous Tense</li>
+                                        <li>Simple Present VS Present Continuous</li>                                                    
+                                    </ol> 
+                                </li>
+                                <li class="my-3">
+                                    Essential Grammar II
+                                    <ol class="inner-nested-li">
+                                        <li>Past Simple Tense</li>
+                                        <li>Past Continuous Tense</li>
+                                        <li>Simple Future Tense</li>
+                                        <li>Learning about Prepositions</li>                                                  
+                                    </ol>
+                                </li>
+                                <li class="my-3">
+                                    Real World Speaking Scenario
+                                    <ol class="inner-nested-li">
+                                        <li>Regular Communication</li> 
+                                        <li>Travelling & Shopping Communications</li>
+                                        <li>Telephonic Conversations</li>
+                                        <li>Party, Occasion Communication</li>
+                                        <li>Family, Relatives, Friends conversation</li>  
+                                    </ol>
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="tab-pane container fade" id="menu2">
+                            <p>
+                                The Program duration for the Basic English Speaking Program is designed according to 
+                                the industry requirements, where the student can practice the previous day’s lessons and 
+                                simultaneously prepare for the next day’s lesson, thoroughly.
+                            </p>
+                            <p>
+                                Elongated training program helps students to learn deeper level of the Foundation English 
+                                Speaking with ample of exercises and listening practices; where they can clear all their 
+                                doubts, with intensive speaking practices which are held inside and outside the English lab. 
+                            </p>
+                            <p>
+                                The detailed duration of Foundation English Speaking Program is as follows:
+                                <ul>
+                                    <li>54 Hours of Intensive English Lab Training Program</li>
+                                    <li>12 Weeks Program (3 Months)</li>
+                                    <li>90 Minutes of Class duration on alternate days</li>
+                                        
+                                </ul>
+                            </p>
+                            <p>
+                                According to choice/ slot availability, students can select their class timings that 
+                                fit with their regular routine, and other educational engagements, to complete the 
+                                program efficiently. 
+                                <table class="table table-hover">
+                                    <thead class="">
+                                        <tr class="table-secondary">
+                                            <th scope="col">Day/Time</th>
+                                            <th scope="col">9:00am-10:30am</th>
+                                            <th scope="col">11:00am-12:30pm</th>
+                                            <th scope="col">1:00pm-2:30pm</th>
+                                            <th scope="col">3:00pm-4:30pm</th>
+                                            <th scope="col">5:00am-6:30pm</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table-danger">
+                                            <th scope="row">Monday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th scope="row">Tuesday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="table-danger">
+                                            <th scope="row">Wednesday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th scope="row">Thursday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="table-danger">
+                                            <th scope="row">Friday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="table-secondary">
+                                            <th scope="row">Saturday</th>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </p>
+                        </div>
+                        <div class="tab-pane container fade" id="menu3">
+                            <p>
+                                The assessment criteria for a student to qualify the program are given below:
+                                <br>
+                            </p>
+                            <table class="table my-3">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="3" class="text-center">ASSESSMENT CRITERIA</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>S. No.</th>
+                                        <th>COMPONENT</th>
+                                        <th>WEIGHTAGE</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Weekly Assessments</td>
+                                        <td>50%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Final Presentation</td>
+                                        <td>25%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Final Speaking Test</td>
+                                        <td>25%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <br>
+                            <table class="table my-3">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan="5" class="text-center">WEEKLY ASSESSMENT SCHEDULE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>WEEK</th>
+                                        <th>ASSESSMENT COMPONENT</th>
+                                        <th>ASSESSMENT TECHNIQUE</th>
+                                        <th>WEIGHTAGE</th>
+                                        <th>APPROX.TIME / LENGTH</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Speaking 1</td>
+                                        <td>Individual Presentation</td>
+                                        <td>Speaking Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Listening 1</td>
+                                        <td>Comprehension of an oral presentation</td>
+                                        <td>Listening Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3.</td>
+                                        <td>Speaking 2</td>
+                                        <td>Group Presentation (2-3)</td>
+                                        <td>Speaking Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4.</td>
+                                        <td>Listening 2</td>
+                                        <td>Note-taking from a short recorded lecture</td>
+                                        <td>Listening Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5.</td>
+                                        <td>Speaking 3</td>
+                                        <td>Tutorial style Group Discussion</td>
+                                        <td>Speaking Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6.</td>
+                                        <td>Listening 3</td>
+                                        <td>Note-taking from a live lecture</td>
+                                        <td>Listening Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7.</td>
+                                        <td>Speaking 4</td>
+                                        <td>Individual Presentation</td>
+                                        <td>Speaking Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8.</td>
+                                        <td>Listening 4</td>
+                                        <td>Telephonic Conversation Questions</td>
+                                        <td>Listening Grade: 10%</td>
+                                        <td>5 minutes</td>
+                                    </tr>
+                                </tbody>
+                            </table>  
+                        </div>
+                        <div class="tab-pane container fade" id="menu4">
+                            More Information Coming Soon. Stay Connected.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 py-4">
+                    <div class="border-outline-sidemenu px-3 py-4">
+                        <h2 class="text-center bg-danger text-light py-2">OUR PROGRAMS</h2>
+                        <div>
+                            <h3 class="heading-h3-right">ENGLISH SKILLS PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>ASCENT Kids</li>
+                                <li>Junior Camps</li>
+                                <li>Primary School English</li>
+                                <li>English Speaking</li>
+                                <li>Elementary English Communication</li>
+                                <li>Intensive English Communication</li>
+                            </ul>
+                            <hr>
+                            <h3 class="heading-h3-right">COMPUTING SKILLS PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>Smart Office Certification</li>
+                                <li>Digital Literacy Certification</li>
+                                <li>Creative Designer Certification</li>
+                                <li>Computer Programming Certification</li>
+                                <li>Hardware & Technical Computing Certification</li>
+                            </ul>
+                            <hr>
+                            <h3 class="heading-h3-right">PERSONA ORGANIZATION PROGRAMS</h3>
+                            <ul class="right-unorderlist list-group">
+                                <li>Personality and Professional Development</li>
+                                <li>Job Interview Training</li>
+                                <li>Pillars of Success</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center my-4 border-outline-sidemenu py-4 px-2">
+                        <h3 class="text-light bg-danger py-2">Contact Us</h3>
+                        <form action="" method="post">
+                            <div class="form-group text-left">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" aria-describedby="fName" placeholder="Enter First Name">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" aria-describedby="lName" placeholder="Enter Last Name">
+                            </div>
+                            <div class="form-group text-left">
+                                <label for="emailID">Email</label>
+                                <input type="email" class="form-control" id="emailID" aria-describedby="email" placeholder="Enter Email Address">
+                            </div>
+                            <button type="submit" class="btn btn-danger">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-light py-5">
+            <div class="container">
+                <h2 class="text-center pt-2 pb-4">EFFECTIVE LEARNING METHODOLOGY</h2>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card card-2">
+                            <!--<img src="..." class="card-img-top" alt="...">-->
+                            <div class="card-body">
+                              <h5 class="card-title text-center">LEARN- In Class</h5>
+                              <p>Learn and clear your doubts in the topic taught in the class.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-2">
+                            <!--<img src="..." class="card-img-top" alt="...">-->
+                            <div class="card-body">
+                              <h5 class="card-title text-center">DO- Action Steps</h5>
+                              <p>Put your knowledge of the Module content into practice through an associated Action Step</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card card-2">
+                            <!--<img src="" class="card-img-top" alt="...">-->
+                            <div class="card-body">
+                              <h5 class="card-title text-center">APPLY-In your language</h5>
+                              <p>Now you apply what you have learned directly to your own learning and any language.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="container-fluid bg-color-grey py-5">
+        <div class="container">
+            <h2 class="text-center pt-2 pb-4">ADVANCED ENGLISH SPEAKING PROGRAM HIGHLIGHTS</h2>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card card-1">
+                        <img src="./img/Media-play-music-icon-min (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Audio Visual Teaching Technique</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card card-1">
+                        <img src="./img/assistance.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Life Time Assistance</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card card-1">
+                        <img src="./img/pictionary.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Pictionary based Teaching Technique</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-danger text-light">
+        <div class="container py-4">
+            <h3 class="text-center">STILL CONFUSED?</h3>
+            <p class="text-center">
+                We are here to assist you for your course selection criteria
+                <br>
+                Send us a message and we will get back to you shortly
+                <br>
+                <button class="btn btn-red py-2 my-4">CONTACT US</button>
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <div class="jumbotron jumbotron-fluid bg-dark text-light mb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Be in Touch</h4>
+                    <p>
+                        Read our magazine designed, edited and published by our students
+                    </p>
+                    <form action="" method="post" class="input-group">
+                        <input type="text" name="" id="be-in-touch-input-element" class="rounded mx-1 my-1">
+                        <input type="submit" value="Join" class="btn btn-danger mx-1 my-1">
+                    </form>
+                    <h4 class="footer-jumbotron-headings">
+                        Ascent elevate
+                    </h4>
+                    <div>
+                        <small>© Copyright 2019 Ascent Ayaansh SkillsTrain LLP</small>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Get in Touch</h4>
+                    <h5 class="footer-jumbotron-headings">Contact Us</h5>
+                    <p>+91 75872 64886</p>
+                    <h5 class="footer-jumbotron-headings">India Campus</h5>
+                    <p>Plot No. 23, Hari Vihar Colony <br>
+                        Kurud Road, Bhilai (C.G.) 490 024 <br>
+                        India
+                    </p>
+                    <h5 class="footer-jumbotron-headings">Oman Campus</h5>
+                    <p>Shop No. 1, Building No. 1 <br>
+                        Postal Code 111 <br>
+                        Alayat, Ibra <br>
+                        Sultanate of Oman
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h4 class="footer-jumbotron-headings">Get Info</h4>
+                    <ul id="get-ingo-unordered-list">
+                        <li>Privacy Policy</li>
+                        <li>Site map</li>
+                        <li>Join our Team</li>
+                    </ul>
+                    <h4 class="footer-jumbotron-headings">Support</h4>
+                    <ul id="get-ingo-unordered-list">
+                        <li>Contact us</li>
+                        <li>Apply now</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mx-5 my-4">
+            <a class="btn btn-light disabled" tabindex="-1" role="button" aria-disabled="true">
+                Hit Counter: 4000
+            </a>
+        </div>
+    </div>
+</body>
+</html>
